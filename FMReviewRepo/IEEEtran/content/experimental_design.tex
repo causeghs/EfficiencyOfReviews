@@ -44,10 +44,33 @@ For our quantitative analysis we used a one factor two treatment design. The fir
 
 \subsection{Objects}
 
-The idea of our experiment was that we analyse the report lists that result out of the review meetings and compare them to the merged lists of reports from each individual reviewer.
+The idea of our experiment was that we analyse the review report that result out of the review meetings and compare them to the merged lists of findings from each individual reviewer.
+
+\subsubsection{Review Meetings}
+
+The review meetings are conducted by students of the University of Stuttgart within the scope of the "Software Praktikum". Each review group consists of five people, being three reviewers, one moderator and one scribe, who is also representing the authors. Before the review meeting itself, all reviewers have to inspect the document and create a list of findings using a review tool \cite{TODO:revager} tool. The reviews are expected to have a duration of TODO:90 minutes. During the reviews, the scribe also uses a review meeting tool to gather the findings and in the end creates a final review report.
+
+\subsubsection{Review Tools}
+
+We looked into the following review tools:
+\textit{RevAger:}
+\textit{Collaborator}
+TODO: Find more review tools, explain them, decide for RevAger (and find a reason).
 
 \subsection{Data collection Procedure}
 
+The data for the control treatment is gathered by taking the findings lists of each reviewer in a review group and merging these lists together, eliminating duplicates.
+On the other hand, the data for the review treatment equals the findings list that results out of the review. Additionally, the RevAger tool automatically measures the elapsed time.
+The tool also saves the participants and their respective roles.
+
+The structure of a finding consists of a description, an aspect (what reviewers should have a special focus on, e.g. completeness), a reference (where to find it in the document) and an importance rating.
+
 \subsection{Analysis Procedure}
+
+For the analysis of the findings, we decided to evaluate them manually, due to the fact that there is no objective way of rating the quality of a finding.
+
+In order to rate the findings, we constructed the following formula/method:
+The weighting of the findings are worth 1 for good, 2 for besides error, 3 for main error and 5 for crucial error. (TODO: TABELLE?). If a rating is incorrect, we will instead assign the value for the correct weighting and decrease it by 1.
+If a finding itself is incorrect (e.g. claims to have found a mistake, where there is none), the finding will recieve a rating of -1.
 
 \subsection{Validity Procedure}
