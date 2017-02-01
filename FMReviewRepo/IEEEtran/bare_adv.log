@@ -1,12 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.18)  31 JAN 2017 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  1 FEB 2017 21:18
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**bare_adv.tex
-(./bare_adv.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(./IEEEtran.cls
+**./bare_adv.tex
+(bare_adv.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 503.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using IEEE Computer Society mode.
@@ -116,12 +114,11 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
-)
-No file bare_adv.aux.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (bare_adv.aux)
 \openout1 = `bare_adv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 523.
@@ -136,10 +133,11 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 523.
 LaTeX Font Info:    ... okay on input line 523.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 523.
 LaTeX Font Info:    ... okay on input line 523.
+
 -- Lines per column: 61 (exact).
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 638.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.04124> not available
@@ -163,7 +161,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.52061> on input line 638.
 LaTeX Font Info:    Try loading font information for U+pzd on input line 638.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
@@ -191,33 +189,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.91833> on input line 941.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <3.51312> on input line 941.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{C:/Users/Josip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] (./bare_adv.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (bare_adv.aux) ) 
 Here is how much of TeX's memory you used:
- 1300 strings out of 493105
- 23019 string characters out of 6137072
- 77282 words of memory out of 5000000
- 4805 multiletter control sequences out of 15000+600000
- 52465 words of font info for 103 fonts, out of 8000000 for 9000
+ 1297 strings out of 493334
+ 22936 string characters out of 3139252
+ 78517 words of memory out of 3000000
+ 4865 multiletter control sequences out of 15000+200000
+ 52465 words of font info for 103 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 31i,8n,31p,203b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
-lvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on bare_adv.pdf (1 page, 73020 bytes).
+ 31i,8n,31p,206b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
+ino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on bare_adv.pdf (1 page, 77649 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
