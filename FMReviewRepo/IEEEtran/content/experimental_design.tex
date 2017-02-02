@@ -1,10 +1,13 @@
 \section{Experimental Design}
 
 \subsection{Research Questions}
+First, we wanted to see, whether review meetings help the software development process in terms of quality management.
 
-\textit{RQ1:} How effective are review meetings in regards to improving document or code quality?
+\textbf{RQ1: How effective are review meetings in regards to improving document or code quality?}
 
-\textit{RQ2:} Are code review meetings an efficient way of increasing document or code quality?
+Next, we were interested in how efficient these review meetings are in regards to time and monetary requirements.
+
+\textbf{RQ2: Are code review meetings an efficient way of increasing document or code quality?}
 
 %\textit{RQ3:} Which requirements have to be met in order to have effective %review meetings?
 
@@ -12,13 +15,22 @@
 
 \subsection{Hypothesis}
 
-H1: Review meetings are effective at improving document or code quality.
+Initially, we defined two hypotheses and their according null hypotheses.
+The first hypothesis refers to RQ1. We wanted to understand if review meetings help improving code or document quality at all and thus only look at the effectiveness.
 
-H10: Review meetings are not effective at improving document or code quality.
+\textbf{H1: Review meetings are effective in improving document or code quality.}
 
-H2: Review meetings are an efficient way of increasing document or code quality.
+The respective null hypothesis assumes that there is no significant improvement in code quality.
 
-H20: Review meetings are not an efficient way of increasing document or code quality.
+\textbf{H10: Review meetings are not effective in improving document or code quality.}
+
+Next we were interested in whether or not review meetings are also efficient in improving code quality, since a group of usually five or six software developers is required and thus entails high monetary costs.
+
+\textbf{H2: Review meetings are an efficient way of increasing document or code quality.}
+
+The null hypothesis for H2 presumes that review meetings are not efficient in imporving code quality.
+
+\textbf{H20: Review meetings are not an efficient way of increasing document or code quality.}
 
 \subsection{Design}
 
@@ -32,6 +44,7 @@ For our quantitative analysis we used a one factor two treatment design. The fir
 \definecolor{b}{RGB}{230,230,255}
 
 \begin{table}
+\centering
 \begin{tabular}{lcr}
   \rowcolor{heading}Subjects & No Review Meeting & Review Meeting \\
   \rowcolor{a}"SoPra" Group 1 & x & x \\
@@ -67,10 +80,62 @@ The structure of a finding consists of a description, an aspect (what reviewers 
 
 \subsection{Analysis Procedure}
 
-For the analysis of the findings, we decided to evaluate them manually, due to the fact that there is no objective way of rating the quality of a finding.
+For the analysis of the findings, we decided to evaluate them manually, due to the fact that there is no objective way of rating the quality of a finding. The evaluation will be executed by three of the study conductors independently and the final result is determined by establishing the median of these.
 
-In order to rate the findings, we constructed the following formula/method:
-The weighting of the findings are worth 1 for good, 2 for besides error, 3 for main error and 5 for crucial error. (TODO: TABELLE?). If a rating is incorrect, we will instead assign the value for the correct weighting and decrease it by 1.
+In order to rate the individual findings, we constructed the following classification scale, which can also be seen in table~\ref{tab:ratings}:
+The weighing of the findings are worth 1 for good, 2 for besides error, 3 for main error and 5 for crucial error. If a rating is incorrect, we will instead assign the value for the correct weighting and decrease it by 1.
 If a finding itself is incorrect (e.g. claims to have found a mistake, where there is none), the finding will recieve a rating of -1.
+
+Next, we tried to find formula that determines the overall quality of a finding list. It is important to consider both the amount of findings, but also the overall quality of these findings. Altough more findings generally are a positive result, we decided that the overall quality is even more important (e.g. to reduce stacking of rather unimportant "good" findings). Therefore our focus is set more on the overall finding quality, meaning that we rate critical and main errors higher.
+We defined the amount of findings $a_L$ by:
+\begin{center}
+
+$a_L = \sum_{L}$
+\end{center}
+
+Where $L$ is the merged list of all findings, without duplicates.
+
+For the overall quality $q_L$ we determined the arithmetic mean of the accumulated weightings of the findings.
+
+\begin{center}
+{$q_L = \frac{1}{a_L} \sum_{f \in L} w_f$}
+\end{center}
+
+Where $w_f$ is the weighting (see table~\ref{tab:ratings}) of finding $f$.
+
+In order to evaluate the difference between two finding lists, we defined the following function:
+
+\begin{center}
+$f(L_1, L_2) = \frac{a_{L_2} - a_{L_1}}{a_{L_2} + a_{L_1}} + (q_{L_2} - q_{L_1}) $
+\end{center}
+
+While in theory $f \in [-7, 7]$ holds with $\frac{a_{L_2} - a_{L_1}}{a_{L_2}} \in [-1, 1]$ and $q_{L_2} - q_{L_1} \in [-6, 6]$, in reality the values we will recieve will be very small. Suppose the reviewers assemble 100 unique findings beforehand and the review meeting results in 5 new findings (which would be a unusually high amount), our first term
+would have a value of 0.0244.
+As for the second term, suppose the average rating for the findings was 3.0 and 10 classification errors occured, we would receive a final quality rating $q_{L_1}$ of 2.951. Assuming that the review meeting corrects all these classification errors, the second term would add up to 0.049. So overall our improvement is 0.0734. Assuming these values are realistic, our previously mentioned focus on the quality would be given with approximately 2:1.
+Considering these values, we now can define our hypotheses.
+We define effectiveness as having any improvement from the document without the meeting.
+We define our H1 Hypothesis on effectiveness as following:
+
+\begin{center}
+\textbf{H1:} $f(L_1, L_2) > 0$
+\end{center}
+
+%\in [-1, 1]
+\begin{table}
+\centering
+\begin{tabular}{lr}
+  \rowcolor{heading}Classification & Rating \\
+  \rowcolor{a}'Good' & 1 \\
+  \rowcolor{b}'Besides Error' & 2 \\
+  \rowcolor{a}'Main Error' & 3 \\
+  \rowcolor{b}'Critical Error' & 5 \\
+  \rowcolor{a}'Finding Error' & -1 \\
+  \rowcolor{b}'Classification Error Penalty' & -1 \\
+\end{tabular}
+\caption{Rating table for the evaluation of findings.}
+\label{tab:ratings}
+\end{table}
+
+
 
 \subsection{Validity Procedure}
