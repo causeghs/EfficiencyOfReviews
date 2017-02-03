@@ -1,1 +1,20 @@
 \section{Related Work}
+In this section we discuss the related work with respect to the efficiency of technical review meetings and the relevance of the meeting sessions. Prior work has qualitatively analyzed the technical review process used by large software systems. \\*
+
+\subsection{Review without meeting session}
+Without a review meeting the reviewers would just send their list of findings via tools developed for supporting code review to the author of the artifact or choosing one reviewer taking care of all the review work. The following papers show the influence on the quality of the artifact when using this method. \\* 
+Baker discussed a procedure for reviewing code changes that are made to a software product as it moves through its life cycle. Facing a decline of customer confidence in his product his team came up with the idea of using a revision control system to identify all changes made to the product and a line by line review of the changes by the project manager. He noted that this methodology came with several advantages one of them being the efficiency with which the quality improvement was made. A single reviewer becomes very efficient in his reviews due to practice at reviewing code and to a thorough understanding of the product. The fact they used the product manager as the single reviewer facilitated him getting an insight into the whole project encompassing each engineer's performance, the complexity of the tasks, progress of the project and also bettering his scheduling skills. The employees liked this methodology because of the manager getting an understanding of the effort in their work, capabilities and identifying areas that needed improvement. \\*
+By using this methodology a 40\% reduction in the number of bugs at a cost of 1-2\% of the project was achieved \cite{Baker:1997:CRE:253228.253461}. \\*
+Mcintosh et al. studied the relationship between software quality and:
+\begin{itemize}
+	\item the proportion of changes that have been code reviewed (code review coverage), and
+	\item the degree of reviewer involvement in the code review process (code review participation)
+\end{itemize}
+through a case study of the large Qt, VTK, and ITK open source systems. The Gerrit-driven code review process for git-based software projects has been used which is tightly integrated with test automation and code integration tools. They extracted code review data from the Gerrit review databases of the studied systems and linked the review data to the integrated patches recorded in the corresponding version control systems. They built Multiple Linear Regression (MLR) models to explain the incidence of post-release defects detected in the components of the studied systems having the goal to understand the relationship between the explanatory variables (code review coverage and participation) and the dependent variable (post-release defect counts). \\*
+They found out that low code review coverage and participation are estimated to produce components with up to two and five additional post-release defects respectively \cite{McIntosh:2014:ICR:2597073.2597076}. \\*
+Bacchelli et al. empirically explored the motivations, challenges, and outcomes of tool-based code reviews. They observed, interviewed, and surveyed developers and managers and manually classified hundreds of review comments across diverse teams at Microsoft using discussions within the review tool CodeFlow. They found out that the main motivation for reviews despite finding defects are knowledge transfer, increasing team awareness, and creation of alternative solutions to problems \cite{Bacchelli:2013:EOC:2486788.2486882}. \\*
+
+
+\subsection{Review with meeting session}
+One common way of quality assurance of documents or code in a software development process is to organize a technical review where several reviewers examine an artifact and discuss the findings together in a two to three hour review meeting. Although it has been shown that a technical review can find bugs and issues efficiently it is unclear how relevant the meeting session is where reviewers discuss their findings. \\*
+
