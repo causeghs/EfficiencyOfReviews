@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.18)  3 FEB 2017 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.18)  3 FEB 2017 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -167,35 +167,69 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
-(./bare_conf.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2012/05/29 v1.1 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count96
+\c@dblbotnumber=\count97
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count98
+\@cmidlb=\count99
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count100
+\@lastruleclass=\count101
+\@thisrulewidth=\dimen140
+)
+(./bare_conf.aux
+
+LaTeX Warning: Label `tab:ratings' multiply defined.
+
+)
 \openout1 = `bare_conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 317.
+LaTeX Font Info:    ... okay on input line 317.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
-\scratchdimen=\dimen128
+\scratchcounter=\count102
+\scratchdimen=\dimen141
 \scratchbox=\box28
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count103
+\nofMParguments=\count104
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count98
-\MPscratchDim=\dimen129
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen142
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks18
 ) (./content/introduction.tex
 Missing character: There is no â in font ptmr7t!
@@ -270,12 +304,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 48.
 
 
-LaTeX Warning: Citation `TODO:revager' on page 2 undefined on input line 64.
+LaTeX Warning: Citation `TODO:revager Thommy' on page 2 undefined on input line
+ 64.
 
-[2]) (./content/analysis.tex) (./content/threats_to_validity.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[2]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
 
-)
+
+LaTeX Warning: Citation `stecklein2004error' on page 3 undefined on input line 
+136.
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+) (./content/analysis.tex) (./content/threats_to_validity.tex [3])
 (./content/results_and_analysis.tex) (./content/conclusion_and_future_work.tex)
 
 ** Conference Paper **
@@ -288,16 +344,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (./bare_conf.aux)
+[4
+
+] [5] (./bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2431 strings out of 493105
- 37306 string characters out of 6137072
- 112425 words of memory out of 5000000
- 5896 multiletter control sequences out of 15000+600000
+ 2697 strings out of 493105
+ 40726 string characters out of 6137072
+ 228205 words of memory out of 5000000
+ 6150 multiletter control sequences out of 15000+600000
  40481 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  34i,9n,35p,1114b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -314,10 +375,10 @@ cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on bare_conf.pdf (3 pages, 137627 bytes).
+Output written on bare_conf.pdf (5 pages, 145920 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

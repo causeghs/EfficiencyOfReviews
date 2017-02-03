@@ -123,13 +123,25 @@ We define effectiveness as having any improvement from the document without the 
 We define our H1 Hypothesis on effectiveness as following:
 
 \begin{center}
-\textbf{H1:} $f(L_pre, L_post) > 0$
+\textbf{H1:} $f(L_{pre}, L_{post}) > 0$
 \end{center}
 
 Wheres $L_pre$ is the finding list before the review meeting, while $L_post$ describes the finding list that results after the meeting.
-The corresponding null hypothesis, 
+The corresponding null hypothesis, assuming that there is no improvement resulting out of a review meeting, looks as follows:
 
-%\in [-1, 1]
+\begin{center}
+\textbf{H10:} $f(L_{pre}, L_{post}) \le 0$
+\end{center}
+
+As for efficiency, we first have to consider the time and monetary costs that result out of a review meeting. Assuming that a review consists of three reviewers, one moderator, one scribe and an author with an average earnings of 100€/h per developer, an hour would cost approximately 600€, not considering potential costs of the meeting room. Since this research only focuses on the review meetings themselves, we do not consider any costs that arise within a review process outside the meeting itself (e.g. the cost for the reviewers to analyse the specimen). Estimating the cost of an error poses a difficult task. According to \cite{stecklein2004error} the cost of an error in the requirements phase increases by 30 to 70 times, when found in the acceptance testing, where a specification error is most likely found in. We assume that correcting an average error in the specification takes about 3 minutes to correct and thus has an initial cost of about 5€, which will cost about 250€ when found in the acceptance testing.
+We assume that this is the average cost for a critical error in order to not overestimate the efficiency. Further we assume that a besides error is worth 100€ and a main error is worth 150€. We define our hypothesis H2, that describes the efficiency of review meetings, as follows:
+
+\begin{center}
+\textbf{H2:} $100 * n < 50* \sum_{f \in L_{new}} w_f$
+\end{center}
+
+Where $n$ is the amount of developers taking part in the review meeting. $L_{new}$ is the list of newly discovered findings, defined as $L_{new} = L_{post} \setminus L_{pre}$.
+
 \begin{table}
 \centering
 \begin{tabular}{lr}
@@ -145,8 +157,10 @@ The corresponding null hypothesis,
 \label{tab:ratings}
 \end{table}
 
-TODO Andi:
-
 \subsection{Validity Procedure}
 
-TODO Andi:
+The review teams were assigned semi-randomly out of all "SoPra" participants with only one condition, being that no "SoPra" team members are within the same review group.
+
+In order to reduce subjectivity of the manual evaluation that will take place when weighting the findings, we decided that three study conductors independently rate these weightings. The median of these three ratings will be taken as the final value.
+
+Each group recieved the specification document three days before their respective review meetings. By doing this we strived for having their memories on the specimen as fresh as possible.
