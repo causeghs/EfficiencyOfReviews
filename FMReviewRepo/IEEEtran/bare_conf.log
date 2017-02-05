@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.24)  4 FEB 2017 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  5 FEB 2017 14:49
 entering extended mode
 **./bare_conf.tex
 (bare_conf.tex
@@ -17,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -111,10 +111,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) ("E:\Program Files (x86)\MiKTeX\tex\latex\colortbl\colortbl.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen126
 \extrarowheight=\dimen127
@@ -122,21 +122,21 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip44
 \backup@length=\skip45
 )
-("E:\Program Files (x86)\MiKTeX\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\graphics-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("E:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("E:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count94
@@ -144,10 +144,10 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \everycr=\toks16
 \minrowclearance=\skip46
 )
-("E:\Program Files (x86)\MiKTeX\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -162,20 +162,20 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-("E:\Program Files (x86)\MiKTeX\tex\latex\graphics\dvipsnam.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-("E:\Program Files (x86)\MiKTeX\tex\latex\lipsum\lipsum.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count95
 )
-("E:\Program Files (x86)\MiKTeX\tex\latex\sttools\stfloats.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\sttools\stfloats.sty"
 Package: stfloats 2016/06/28 v3.2 Improve float mechanism and baselineskip sett
 ings
 \@dblbotnum=\count96
 \c@dblbotnumber=\count97
 )
-("E:\Program Files (x86)\MiKTeX\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen128
 \lightrulewidth=\dimen129
@@ -194,8 +194,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count100
 \@lastruleclass=\count101
 \@thisrulewidth=\dimen140
-)
-(bare_conf.aux
+) (bare_conf.aux
 
 LaTeX Warning: Label `tab:ratings' multiply defined.
 
@@ -216,7 +215,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 317.
 LaTeX Font Info:    ... okay on input line 317.
 
 -- Lines per column: 56 (exact).
-("E:\Program Files (x86)\MiKTeX\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen141
@@ -287,7 +286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
-[1{C:/Users/54T4NmI5T/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Josip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -317,7 +316,7 @@ Missing character: There is no ¬ in font ptmr7t!
 
 
 LaTeX Warning: Citation `stecklein2004error' on page 3 undefined on input line 
-148.
+150.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
@@ -331,7 +330,7 @@ Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
-) (content/analysis.tex [3]) (content/threats_to_validity.tex)
+[3]) (content/analysis.tex) (content/threats_to_validity.tex)
 (content/results_and_analysis.tex) (content/conclusion_and_future_work.tex)
 
 ** Conference Paper **
@@ -354,26 +353,25 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  2716 strings out of 493334
- 40939 string characters out of 3138379
- 234744 words of memory out of 3000000
+ 40857 string characters out of 3139252
+ 234918 words of memory out of 3000000
  6233 multiletter control sequences out of 15000+200000
  40481 words of font info for 74 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  34i,9n,35p,1117b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Program Files (x86)/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<E:/Program Fi
-les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program Files (x
-86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files (x86)/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><E:/Program Files (x86)/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Program Files (x86)/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><E:/Program Files (x86)/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb><E:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><E:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><E:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><E:/Program Files (x86)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/Program 
-Files (x86)/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/Program Files (x86)/Mi
-KTeX/fonts/type1/urw/times/utmr8a.pfb><E:/Program Files (x86)/MiKTeX/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (5 pages, 156269 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (5 pages, 158374 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
