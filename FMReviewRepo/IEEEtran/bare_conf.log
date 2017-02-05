@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.24)  4 FEB 2017 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.24)  5 FEB 2017 17:45
 entering extended mode
 **./bare_conf.tex
 (bare_conf.tex
@@ -296,27 +296,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 ) (content/experimental_design.tex
 
-LaTeX Warning: Citation `expecations...' on page 2 undefined on input line 12.
+LaTeX Warning: Citation `expecations...' on page 2 undefined on input line 13.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 61.
 
 LaTeX Warning: Citation `TODO:revager Thommy' on page 2 undefined on input line
- 76.
+ 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
 
 [2]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
+Underfull \hbox (badness 3679) in paragraph at lines 98--102
+\OT1/ptm/m/n/10 with all stu-dents par-tic-i-pat-ing in the re-view meet-ing.
+ []
 
+
+Underfull \hbox (badness 1675) in paragraph at lines 98--102
+\OT1/ptm/m/it/10 prac-ti-cal re-view ex-pe-ri-ence\OT1/ptm/m/n/10 , \OT1/ptm/m/
+it/10 sub-jec-tive view of at-tended
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 98--102
+\OT1/ptm/m/n/10 model: Open-ing the in-ter-view with open ques-tions and
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 98--102
+\OT1/ptm/m/n/10 mov-ing to-wards more de-tailed and spe-cific ques-tions.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
+
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
 
 LaTeX Warning: Citation `stecklein2004error' on page 3 undefined on input line 
-150.
+153.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
@@ -330,7 +359,16 @@ Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
-[3]) (content/analysis.tex) (content/threats_to_validity.tex)
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(content/analysis.tex) (content/threats_to_validity.tex [4])
 (content/results_and_analysis.tex) (content/conclusion_and_future_work.tex)
 
 ** Conference Paper **
@@ -343,7 +381,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] [5] (bare_conf.aux)
+[5
+
+] (bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -352,13 +392,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2717 strings out of 493329
- 40926 string characters out of 3139062
- 234946 words of memory out of 3000000
- 6234 multiletter control sequences out of 15000+200000
+ 2718 strings out of 493329
+ 40953 string characters out of 3139062
+ 228308 words of memory out of 3000000
+ 6235 multiletter control sequences out of 15000+200000
  40481 words of font info for 74 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 34i,9n,35p,1117b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,35p,1200b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<E:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files/MiKTeX 2.9/fonts/t
@@ -371,7 +411,7 @@ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><E:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (5 pages, 158374 bytes).
+Output written on bare_conf.pdf (5 pages, 160454 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
