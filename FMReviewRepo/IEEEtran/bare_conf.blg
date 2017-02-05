@@ -1,5 +1,15 @@
-[0] Config.pm:354> INFO - This is Biber 2.6
-[0] Config.pm:357> INFO - Logfile is 'bare_conf.blg'
-[30] biber-MSWIN32:302> INFO - === 
-[294] Utils.pm:180> ERROR - Cannot find control file 'bare_conf.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[294] Biber.pm:113> INFO - ERRORS: 1
+This is BibTeX, Version 0.99dThe top-level auxiliary file: bare_conf.aux
+White space in argument---line 9 of file bare_conf.aux
+ : \citation{TODO:revager
+ :                        Thommy}
+I'm skipping whatever remains of this command
+The style file: IEEEtran.bst
+Database file #1: ../IEEEabrv.bib
+Warning--I didn't find a database entry for "expecations..."
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in stecklein2004error
+
+Done.
+(There was 1 error message)

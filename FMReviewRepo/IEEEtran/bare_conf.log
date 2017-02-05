@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  5 FEB 2017 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  5 FEB 2017 15:59
 entering extended mode
 **./bare_conf.tex
 (bare_conf.tex
@@ -306,7 +306,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: Citation `TODO:revager Thommy' on page 2 undefined on input line
  76.
 
-[2]
+[2] [3]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
@@ -315,8 +315,8 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 
 
-LaTeX Warning: Citation `stecklein2004error' on page 3 undefined on input line 
-150.
+LaTeX Warning: Citation `stecklein2004error' on page 4 undefined on input line 
+166.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
@@ -330,8 +330,9 @@ Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
-[3]) (content/analysis.tex) (content/threats_to_validity.tex)
+) (content/analysis.tex) (content/threats_to_validity.tex [4])
 (content/results_and_analysis.tex) (content/conclusion_and_future_work.tex)
+(bare_conf.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -343,7 +344,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] [5] (bare_conf.aux)
+[5
+
+] (bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -352,11 +355,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2716 strings out of 493334
- 40857 string characters out of 3139252
- 234918 words of memory out of 3000000
- 6233 multiletter control sequences out of 15000+200000
- 40481 words of font info for 74 fonts, out of 3000000 for 9000
+ 2723 strings out of 493334
+ 40971 string characters out of 3139252
+ 230280 words of memory out of 3000000
+ 6238 multiletter control sequences out of 15000+200000
+ 38797 words of font info for 72 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  34i,9n,35p,1117b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -371,7 +374,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (5 pages, 158374 bytes).
+Output written on bare_conf.pdf (5 pages, 162086 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
