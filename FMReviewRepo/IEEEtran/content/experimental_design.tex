@@ -47,8 +47,7 @@ The corresponding null hypothesis, assuming that there are no positive side effe
 
 \subsection{Design}
 
-Quantitative and qualitative analysis.?
-One factor 2 treatment.
+For our experiment we decided to do a quantitative and qualitative analysis. The quantitative analysis mostly covers hypotheses H1 and H2, while the qualitative analysis is more focused on the third hypothesis H3.
 
 For our quantitative analysis we used a one factor two treatment design which you can see in table one. The first treatment is the control treatment of doing no review meetings, while the second treatment is the execution of a review meeting. Since doing no review does not influence the subjects, each group was assigned to both treatments. 
 
@@ -74,7 +73,7 @@ The idea of our experiment was that we analyse the review report that result out
 
 \subsubsection{Review Meetings}
 
-The review meetings are conducted by students of the University of Stuttgart within the scope of the "Software Praktikum". Each review group consists of five people, being three reviewers, one moderator and one scribe, who is also representing the authors. Before the review meeting itself, all reviewers have to inspect the document and create a list of findings using a review tool \cite{TODO:revager Thommy} tool. The reviews are expected to have a duration of TODO:90 minutes. During the reviews, the scribe also uses a review meeting tool to gather the findings and in the end creates a final review report.
+The review meetings are conducted by students of the University of Stuttgart within the scope of the "Software Praktikum". Each review group consists of five people, being three reviewers, one moderator and one scribe, who is also representing the authors. Before the review meeting itself, all reviewers have to inspect the document and create a list of findings using a review tool. The reviews are expected to have a duration of 90 minutes. During the reviews, the scribe also uses a review meeting tool to gather the findings and in the end creates a final review report.
 
 \subsubsection{Review Tools}
 
@@ -126,62 +125,46 @@ Our interviews are classified as a first degree method to collect data (research
 
 \subsection{Analysis Procedure}
 
-For the analysis of the findings, we decided to evaluate them manually, due to the fact that there is no objective way of rating the quality of a finding. The evaluation will be executed by three of the study conductors independently and the final result is determined by establishing the median of these.
+For the analysis of the individual findings, we decided to evaluate them manually, due to the fact that there is no objective way of rating the quality of a finding. The evaluation will be executed by three of the study conductors independently and the final result is determined by establishing the median of these.
 
-In order to rate the individual findings, we constructed the following classification scale, which can also be seen in table~\ref{tab:ratings}:
-The weighing of the findings are worth 1 for good, 2 for besides error, 3 for main error and 5 for crucial error. If a rating is incorrect, we will instead assign the value for the correct weighting and decrease it by 1.
-If a finding itself is incorrect (e.g. claims to have found a mistake, where there is none), the finding will recieve a rating of -1.
+In order to weight the individual findings, we constructed the following classification scale, which can also be seen in table~\ref{tab:ratings}:
+The weighing of the findings are worth 0 for good, 1 for besides error, 3 for main error and 5 for crucial error. If a rating is incorrect, we will instead assign the value for the correct weighting and decrease it by 1.
+If a finding itself is incorrect (e.g. claims to have found a mistake, where there is none), the finding will receive a rating of -2.
+The reason we do not consider "good" findings is because if a finding is rated good, usually nothing will be changed about it in the document and thus the quality of the document does not change.
 
-Next, we tried to find formula that determines the overall quality of a finding list. It is important to consider both the amount of findings, but also the overall quality of these findings. Altough more findings generally are a positive result, we decided that the overall quality is even more important (e.g. to reduce stacking of rather unimportant "good" findings). Therefore our focus is set more on the overall finding quality, meaning that we rate critical and main errors higher.
-We defined the amount of findings $a_L$ by:
+Next, we tried to find formulas to determine the overall quality of a finding list. It is important to consider both the amount of findings, but also the quality of these findings. Although more findings generally are a positive result, we decided that their quality is even more important (e.g. to reduce stacking of rather unimportant besides errors). Therefore our focus is set more on the overall finding quality, meaning that we rate critical and main errors significantly higher (one critical error has the same weight as five besides errors).
+We decided to compare all accumulated findings before the review meeting to the accumulated findings after the review meeting and scale the findings with their respective weighting.
+Our hypothesis looks as follows:
+
 \begin{center}
-
-$a_L = \sum_{L}$
+	\textbf{H1:} $\sum_{f \in L_{post}} w_f > \sum_{f \in L_{pre}} w_f$
 \end{center}
 
-Where $L$ is the merged list of all findings, without duplicates.
+Where $L_{post}$ is the finding list resulting out of the review, $L_{pre}$ is the finding list that was merged out of the individual finding lists of the reviewers, eliminating duplicates and $w_f$ is the weighting of finding $f$. 
+In case duplicate findings with different ratings appear during the merging process, we decided to not give a penalty if at least one rating is correct. Giving the review meeting the benefit of the doubt, assuming that it will find the correct meeting, we wanted to make sure that we do not overestimate its impact by giving these penalties.
 
-For the overall quality $q_L$ we determined the arithmetic mean of the accumulated weightings of the findings.
-
-\begin{center}
-{$q_L = \frac{1}{a_L} \sum_{f \in L} w_f$}
-\end{center}
-
-Where $w_f$ is the weighting (see table~\ref{tab:ratings}) of finding $f$.
-
-In order to evaluate the difference between two finding lists, we defined the following function:
+The respective null hypothesis, assuming that review meetings are not effective, looks like the following:
 
 \begin{center}
-$f(L_1, L_2) = \frac{a_{L_2} - a_{L_1}}{a_{L_2} + a_{L_1}} + (q_{L_2} - q_{L_1}) $
-\end{center}
-
-While in theory $f \in [-7, 7]$ holds with $\frac{a_{L_2} - a_{L_1}}{a_{L_2}} \in [-1, 1]$ and $q_{L_2} - q_{L_1} \in [-6, 6]$, in reality the values we will recieve will be very small. Suppose the reviewers assemble 100 unique findings beforehand and the review meeting results in 5 new findings (which would be a unusually high amount), our first term
-would have a value of 0.0244.
-As for the second term, suppose the average rating for the findings was 3.0 and 10 classification errors occured, we would receive a final quality rating $q_{L_1}$ of 2.951. Assuming that the review meeting corrects all these classification errors, the second term would add up to 0.049. So overall our improvement is 0.0734. Assuming these values are realistic, our previously mentioned focus on the quality would be given with approximately 2:1.
-Considering these values, we now can define our hypotheses.
-We define effectiveness as having any improvement from the document without the meeting.
-We define our H1 Hypothesis on effectiveness as following:
-
-\begin{center}
-\textbf{H1:} $f(L_{pre}, L_{post}) > 0$
-\end{center}
-
-Wheres $L_pre$ is the finding list before the review meeting, while $L_post$ describes the finding list that results after the meeting.
-The corresponding null hypothesis, assuming that there is no improvement resulting out of a review meeting, looks as follows:
-
-\begin{center}
-\textbf{H10:} $f(L_{pre}, L_{post}) \le 0$
+	\textbf{H10:} $\sum_{f \in L_{post}} w_f \le \sum_{f \in L_{pre}} w_f$
 \end{center}
 
 As for efficiency, we first have to consider the time and monetary costs that result out of a review meeting. Assuming that a review consists of three reviewers, one moderator, one scribe and an author with an average earnings of 100€/h per developer, an hour would cost approximately 600€, not considering potential costs of the meeting room. Since this research only focuses on the review meetings themselves, we do not consider any costs that arise within a review process outside the meeting itself (e.g. the cost for the reviewers to analyse the specimen). Estimating the cost of an error poses a difficult task. According to \cite{stecklein2004error} the cost of an error in the requirements phase increases by 30 to 70 times, when found in the acceptance testing, where a specification error is most likely found in. We assume that correcting an average error in the specification takes about 3 minutes to correct and thus has an initial cost of about 5€, which will cost about 250€ when found in the acceptance testing.
-We assume that this is the average cost for a critical error in order to not overestimate the efficiency. Further we assume that a besides error is worth 100€ and a main error is worth 150€. We define our hypothesis H2, that describes the efficiency of review meetings, as follows:
+We assume that this is the average cost for a critical error in order to not overestimate the efficiency. Further we receive costs for besides error being worth 50€ and a main error is worth 150€. We define our hypothesis H2, that describes the efficiency of review meetings, as follows:
 
 \begin{center}
-\textbf{H2:} $100 * n < 50* \sum_{f \in L_{new}} w_f$
+	\textbf{H2:} $c_e \sum_{f \in L_{new}} w_f > \frac{d}{60} \sum_{p \in D} s_p$
 \end{center}
 
-Where $n$ is the amount of developers taking part in the review meeting. $L_{new}$ is the list of newly discovered findings, defined as $L_{new} = L_{post} \setminus L_{pre}$. \\
+Where $c_e$ is the expected cost of a besides error (we assume 50€), $L_{new}$ is the list of newly discovered findings, defined as $L_{new} = L_{post} \setminus L_{pre}$ and $w_f$ again is the weighting of finding $f$. On the other side of the inequality, $d$ describes the duration of the meeting session, $D$ is the list of developers taking part in the review meeting and $s_p$ is the hourly cost of developer $p$ (we assume 100€/hour).
 
+Our null hypothesis H20 is thus defined as:
+
+\begin{center}
+	\textbf{H20:} $c_e \sum_{f \in L_{new}} w_f \le \frac{d}{60} \sum_{p \in D} s_p$
+\end{center} 
+
+After describing the quantitative analysis procedure, we now look into the qualitative analysis procedure.
 There are many different ways to conduct a qualitative data analysis. First of all, we want to investigate both research categories, deductive research and inductive research.
 In the deductive research approach we compare all collected qualitative data to our previously defined hypotheses in subsection \ref{subsec:research_questions}. This analysis shows us whether the defined hypotheses can be confirmed or not (\textit{Hypothesis confirmation}). Our goal is to extract essential data, in order to create an overview about the base information. Therefore, we analyze all interview transcripts for data organization and categorization. With \textit{Coding}, data from interviews can be summarized by using a short word or phrase that represents participants essential data. We use two different coding approaches: \textit{open coding}: creates labels for big chunks of data and summarizes it; \textit{axial coding}: helps us to identify relationships between \textit{open coding} labels. This especially comes in handy when analyzing if there is a correlation e.g. between participant qualification (e.g. education level) and amount of findings they found in the review meeting. For the qualitative data analysis we use the MaxQD tool in order to add codes to the interview transcripts. \\
 Moving away from deductive research, inductive research can create new hypotheses with the data we have collected, which also can be useful when talking about future work (\textit{Hypotheses generation}). Here we used the \textit{constructive grounded theory} approach. The coding procedure is divided in three different coding approaches: \textit{initial coding}: examining data without biasing it; \textit{focused coding}: creating categories from the most used codes; \textit{theoretical coding}: determine relationships between categories.
@@ -189,15 +172,15 @@ Moving away from deductive research, inductive research can create new hypothese
 \begin{table}
 \centering
 \begin{tabular}{lr}
-  \rowcolor{heading}Classification & Rating \\
-  \rowcolor{a}'Good' & 1 \\
-  \rowcolor{b}'Besides Error' & 2 \\
+  \rowcolor{heading}Classification & Weighting \\
+  \rowcolor{a}'Good' & 0 \\
+  \rowcolor{b}'Besides Error' & 1 \\
   \rowcolor{a}'Main Error' & 3 \\
   \rowcolor{b}'Critical Error' & 5 \\
-  \rowcolor{a}'Finding Error' & -1 \\
+  \rowcolor{a}'Finding Error' & -2 \\
   \rowcolor{b}'Classification Error Penalty' & -1 \\
 \end{tabular}
-\caption{Rating table for the evaluation of findings.}
+\caption{Weighting table for the evaluation of findings.}
 \label{tab:ratings}
 \end{table}
 
